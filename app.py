@@ -12,4 +12,5 @@ with st.container():
 
 with st.container():
     a=st.text_input('Give your name')
-    st.write("what are you doing",a,"how is mom")
+    if a.strip():  
+        st.write(f"What are you doing, {a}? How is mom?")
