@@ -27,6 +27,6 @@ with st.container():
         if b.strip():
             b_modified = replace_words(b)
             st.write(f"So {b_modified}. Then what about dad?")
-            c=st.text_input('ANSWER')
+            c=st.text_input('ANS')
            
             
