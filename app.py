@@ -28,4 +28,6 @@ with st.container():
             b_modified = replace_words(b)
             st.write(f"So {b_modified}. Then what about dad?")
             c = st.text_input('')
+            if c.strip():
+                st.write("ohh i see")
             
