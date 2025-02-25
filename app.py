@@ -11,4 +11,5 @@ with st.container():
     st.write("[Cute video of horse girl >](https://www.youtube.com/shorts/l74lS0jHnxo)")
 
 with st.container():
-    st.text_input('hi')
+    a=st.text_input('Give your name')
+    st.write("what are you doing",a,"how is mom")
